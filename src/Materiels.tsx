@@ -20,7 +20,7 @@ const MaterialCard: React.FC<{ material: Material; onEdit: (material: Material) 
   };
 
   return (
-    <div className="border p-2 rounded shadow-sm flex items-center space-x-4 bg-gray-100">
+    <div className="border p-2 rounded shadow-sm flex items-center space-x-4 bg-white">
       <img src={material.photo} alt={material.nom} className="w-16 h-16 object-cover rounded cursor-pointer" onClick={toggleZoom} />
       <div>
         <h2 className="text-lg font-semibold flex items-center">
